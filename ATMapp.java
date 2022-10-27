@@ -10,8 +10,6 @@ public class BankingApp {
 	static Account account1;
 	static Account account2;
 	public static void main(String[] args) {
-		//the ATM machine is supposed to read the card number by itself
-		//but for coding reasons we write the number in the console
 		System.out.println("Enter your card number: ");
 		long CardNumber = scanner.nextLong();
 		if (dataset.containsKey(CardNumber)) {
