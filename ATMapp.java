@@ -3,7 +3,7 @@ package atm;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class ATMapp {
+public class BankingApp {
 	static Scanner scanner = new Scanner(System.in);
 	static DataBase dataBase = new DataBase();
 	static HashMap<Long, Account> dataset = dataBase.createDataSet();
